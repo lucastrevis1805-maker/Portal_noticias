@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadástro</title>
+</head>
+<body>
+    <header style="display: flex; justify-content: space-between;">
+        <h1 style="color: #07bbf7;">Cadástro</h1>
+        <nav>
+            <a href="./index.html">Início</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <form onsubmit="alert('Cadástro feito!')" action="index.html">
+            <label for="email">E-Mail:</label>
+            <input type="email" placeholder="Digite seu email" required maxlength="100" minlength="10">
+            <br>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" placeholder="Digite sua senha" required minlength="1" maxlength="50">
+            <br>
+            <button>Enviar dados!</button>
+        </form>
+    </main>
+    <hr>
+</body>
+</html>
